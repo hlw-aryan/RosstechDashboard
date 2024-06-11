@@ -2,6 +2,23 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Screenshot
+### Read
+![image](https://github.com/hlw-aryan/RosstechDashboard/assets/134946530/b2844ae3-4002-421a-b32e-8f276fa15829)
+### Filter
+![image](https://github.com/hlw-aryan/RosstechDashboard/assets/134946530/4f8c152a-96df-4170-b11d-7f8093cfe563)
+### Create
+![image](https://github.com/hlw-aryan/RosstechDashboard/assets/134946530/8aae3883-4408-4c05-a430-cabce2bf24e4)
+![image](https://github.com/hlw-aryan/RosstechDashboard/assets/134946530/42e1885e-03d1-45ee-8645-b434adaef073)
+### Delete
+![image](https://github.com/hlw-aryan/RosstechDashboard/assets/134946530/33d3ab52-4e79-42bf-acef-2b3de66c648b)
+### Edit/Update
+![image](https://github.com/hlw-aryan/RosstechDashboard/assets/134946530/a0e84d26-4572-4085-b2f9-7aaafd5f1789)
+![image](https://github.com/hlw-aryan/RosstechDashboard/assets/134946530/81be024c-585c-42fe-aa6f-37788e63ae37)
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
