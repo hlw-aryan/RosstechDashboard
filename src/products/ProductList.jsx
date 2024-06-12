@@ -164,7 +164,7 @@ export default function ProductList() {
           aria-describedby="modal-modal-description"
         >
           <Box sx={style}>
-            <EditProducts closeEvent={handleEditClose} fid = {formid} />
+            <EditProducts closeEvent={handleEditClose} fid={formid} />
           </Box>
         </Modal>
       </div>
@@ -235,20 +235,12 @@ export default function ProductList() {
                 .map((row) => {
                   return (
                     <TableRow hover role="checkbox" tabIndex={-1}>
-                      <TableCell key={row.id} align="left">
-                        {row.Day}
-                      </TableCell>
-                      <TableCell key={row.id} align="left">
-                        {row.ReferenceNo}
-                      </TableCell>
-                      <TableCell key={row.id} align="left">
-                        {row.Product}
-                      </TableCell>
-                      <TableCell key={row.id} align="left">
-                        {row.Producer}
-                      </TableCell>
-                      <TableCell key={row.id} align="left">
-                        {row.StatusOfGoods}
+                      <TableCell align="left">{row.Day}</TableCell>
+                      <TableCell align="left">{row.ReferenceNo}</TableCell>
+                      <TableCell align="left">{row?.Product || ""}</TableCell>
+                      <TableCell align="left">{row?.Producer || ""}</TableCell>
+                      <TableCell align="left">
+                        {row?.StatusOfGoods || ""}
                       </TableCell>
                       <TableCell align="left">
                         <Stack spacing={2} direction="row">
@@ -285,9 +277,7 @@ export default function ProductList() {
                               cursor: "pointer",
                             }}
                             onClick={() => {
-                              deleteUser(
-                                row.id,
-                              );
+                              deleteUser(row.id);
                             }}
                           />
                         </Stack>
